@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .main {
+    @apply px-40 py-10
+  }
+  .bg-accent {
+    @apply text-white
+  }
+}
+*,
+body,
+html {
+  transition: all 0.5s linear;
+}
